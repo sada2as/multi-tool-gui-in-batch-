@@ -12,7 +12,7 @@ echo ██║ ╚═╝ ██║╚██████╔╝██████�
 echo ╚═╝     ╚═╝ ╚═════╝ ╚══════╝╚═╝   ╚═╝      ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝
 echo.
 echo [97m┌────────────────────────────┐
-echo │ 1. [92mgithub                  [97m│
+echo │ 1. [92mCheat Engine                  [97m│
 echo │                            │
 echo │ 2. credits                 │
 echo └────────────────────────────┘
@@ -20,15 +20,15 @@ echo └────────────────────────
 set /p input= .
 
 
-if /I "%input%"=="1" goto github
+if /I "%input%"=="1" goto Cheat Engine
 if /I "%input%"=="2" goto credits
 
 
 pause
 goto youtubevid
 
-:github
-start https://github.com/Bladesifyyy
+:Cheat Engine
+start https://www.cheatengine.org/
 pause
 goto youtubevid
 
